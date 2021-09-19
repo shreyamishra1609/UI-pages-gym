@@ -1,0 +1,752 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+html{
+    font-size:62.5%;
+}
+.header{
+    background-image:url('images/home.jpg');
+    background-size:cover;
+    height:100vh;
+    z-index:10;
+   
+   
+}
+.header h1{
+    font-size:5rem;
+}
+ .logo{
+    
+    color:white;
+    font-size:3rem;
+    font-family: 'Oswald', sans-serif;
+    margin-left:1rem;
+    padding:1rem;
+    border-bottom: 0.1rem solid white;
+}
+
+#nav  {
+ float:right;
+ margin-top:-5rem;
+
+
+}
+li {
+
+    list-style-type: none;
+    color:white;
+    display: inline;
+    padding:1rem;
+    font-size:1.5rem;
+    
+}
+
+.header #nav a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+.home {
+   
+    color:white;
+    margin-left:10rem ;
+    margin-top:20rem;   
+   
+}
+.red{
+    color:red;
+}
+
+.icon{
+    margin-left:72rem;
+    margin-top:22rem;
+}
+
+.arrow{
+
+    animation: go 1s ease infinite;
+
+}
+@keyframes go{
+    0%{
+        transform:translateY(0);
+    }
+    100%{
+        transform:translateY(2rem);
+    }
+}
+
+
+
+
+
+/*about*/
+
+#about .col-lg-4{
+    height:100vh;
+    padding:4rem;
+    align-items: center;
+    text-align: center;
+    font-size:1.7rem;
+    border:0.2rem solid black;
+   
+}
+    
+.col-lg-4 h2{
+    font-size: 3rem;
+    padding:1rem;
+}
+
+
+
+#about,.row{
+    padding:2rem;
+}
+
+.one{
+    background: linear-gradient(to right,#fcb69f,#ffecd2 );
+    box-shadow: 0.5rem 1rem 1.8rem #0a0a0a;
+    border-radius:1rem;
+  
+}
+
+.two{
+    background: linear-gradient(to right,#93a5cf ,#e4efe9);
+    box-shadow: .5rem 1rem 1.8rem #111111;
+    border-radius:1rem;
+}
+
+.three{
+    background: linear-gradient(to right,#B7F8DB, #50A7C2);
+    box-shadow: 1rem 1rem 1.8rem #201e1e;
+    border-radius:2rem;
+}
+
+
+
+/*services*/
+
+#services{
+    height:80vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://i.pinimg.com/originals/a6/67/9a/a6679a99dd78374775a7f5fc660a5ad4.jpg");
+    background-size: cover;
+    background-position-y: -10rem;
+    width:100%;
+    color:white;
+    border:1rem solid black;
+
+}
+#services h1{
+    text-align: center;
+    padding:2rem;
+    font-size:4rem;
+}
+
+#services p{
+    width:50rem;
+    padding:3rem;
+    margin-left:2rem;
+    font-size:1.5rem;
+   
+
+}
+
+.butn{
+    margin-left:5rem;
+    background-color: black;
+    color:white;
+    padding:2rem;
+    border-radius:2rem;
+    border:0.5rem solid white;
+    font-size:1.5rem;
+ 
+    
+}
+
+.accordian{
+   
+    width:60rem;
+    float:right;
+    margin-top:-27rem;
+    padding:1.5rem;
+    font-size:1.5rem;
+   
+}
+
+.accordian-container .text{
+    display:none;
+    padding:0.5rem;
+  
+
+}
+
+.accordian-container .head{
+    background-color:rgb(131, 9, 9);
+    padding:1rem;
+    margin-bottom:1rem;
+    
+
+}
+.accordian-container .active {
+    background-color:black;
+    padding:1rem;
+    margin-bottom:1rem;
+}
+
+.fa{
+    float:right;
+    padding:0.5rem;
+    
+    
+    
+}
+.accordian h4{
+    display:inline;
+    font-size:2.5rem;
+}
+
+#act{
+    display:block;
+}
+
+
+
+/*classes */
+#classes{
+    padding:4rem;
+    margin-top:2rem;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    
+ 
+}
+
+
+.class{
+    margin-right:10rem;
+    width:50rem;
+    float: right;
+    font-size:1.5rem;
+}
+
+.class-text{
+    
+  
+     background:black;
+     color:white;
+     width:30rem;
+     height:25rem;
+     text-align: center;
+     display:inline;
+     padding:2rem;
+   
+    
+
+}
+.class .row{
+    margin-left:-15rem;
+    margin-top:-3rem;
+
+    
+
+}
+
+.crap{
+   text-align:center;
+   margin-right:25rem;
+   width:45rem;
+   color:white;
+   font-weight:bold;
+ 
+}
+
+
+.class-text-2{
+    background:rgb(209, 1, 1);
+    color:white;
+    width:30rem;
+    height:25rem;
+     text-align: center;
+     display:inline;   
+     padding:2rem;
+}
+
+
+/*staart today*/
+
+#start{
+    height:50rem;
+    width: 100%;
+    background-color: black;
+    color:white;
+    font-size:1.5rem;
+  
+
+}
+
+.start-text{
+    width:65rem;
+    padding:8rem;
+    
+}
+
+.red1{
+    background-color: red;
+    margin-left:10rem;
+}
+
+.start-img{
+    float:right;
+    margin-top:-40rem;
+    margin-right:5rem;
+
+}
+
+/* schedule*/
+
+.schedule{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    
+}
+
+.schedule .table{
+  width:40%;
+  float:right;
+  margin-right:20rem;
+  margin-top:5rem;
+  border: 0.3rem solid black;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.sched-text{
+    width:50%;
+    padding:3rem;
+    font-size:2rem;
+}
+
+tr:nth-child(odd) td.day{
+background:linear-gradient(black,blue);
+color:white;
+}
+
+
+tr:nth-child(even) td.day {
+    background:linear-gradient(red,orange);
+    color:white;
+    }
+
+    
+    /* price*/
+
+    .price-text{
+        margin-left:45rem;
+        width:60rem;;
+        text-align: center;
+        padding-bottom:2rem;
+    }
+
+  
+
+   #price img{
+       height:22rem;
+       width:33.5rem;
+   }
+
+   .price-tag{
+    padding: 1.5rem;
+	font-size: 2rem;
+	background-color: #c11325;
+	color:#ffffff;
+	text-align: center;
+	font-weight: 700;
+   }
+
+   #price .row{
+       margin-left:8rem;
+       width:150rem;
+   }
+
+   #price .text{
+    padding:3rem 1.5rem;
+    text-align: center;
+    background-color: rgb(214, 210, 210);
+
+   }
+   #price h3{
+    font-size: 2.4rem;
+	color:#222222;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    
+   }
+
+   #price p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color:#222222;
+    margin:0;
+    text-align: center;
+    font-family: 'Open-sans', sans-serif;	
+   
+   }
+   
+   #price .btn{
+       margin-top: 1rem;;
+    padding: .8rem 3rem;
+    background-color: #c11325;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    border: 1rem solid transparent;
+    font-size:1.5rem;
+    
+   }
+
+   #price .btn:hover{
+    animation: back 1s  ;
+    animation-fill-mode: forwards;
+   }
+
+   @keyframes back{
+    from{background-color:#c11325; }
+    to{
+        background-color:rgb(214, 210, 210);
+        border: .1rem solid black;
+        color:black;
+    }
+   }
+
+#price .container{
+    margin-left:-3rem;
+}
+
+/*contact*/
+
+.contact{
+	padding:8rem 0rem;
+	background-color: #222222;
+}
+
+.contact .content{
+	-webkit-display: flex;
+	display: flex;
+}
+
+.contact .content .box{
+	flex:0 0 50%;
+	max-width: 50%;
+	padding: 1.5rem;
+}
+
+.contact .content .form input,
+.contact .content .form textarea{
+ height: 4.5rem;
+ width: 100%;
+ padding:.6rem 1.2rem;
+ margin-bottom: 2.5rem;
+ background-color: transparent;
+ border:.1rem solid #ffffff;
+ font-family: 'Open-sans',sans-serif;
+ color:#ffffff;
+}
+.contact .content .form input:focus,
+.contact .content .form textarea:focus{
+ outline: none;
+}
+.contact .content .form input::placeholder,
+.contact .content .form textarea::placeholder{
+	color:#ffffff;
+}
+.contact .content .form textarea{
+	height: 10.0rem;
+}
+
+.contact .content .form button{
+	border:none;
+	outline: none;
+	box-shadow: none;
+	height: 4.5rem;
+	padding:0rem 5.0rem;
+	border:.1rem solid transparent;
+	background-color: #c11325;
+	color:#ffffff;
+	font-size: 1.5rem;
+	transition: all .5s ease;
+	cursor: pointer;
+}
+.contact .content .form button:hover{
+	background-color:transparent;
+	color:#ffffff; 
+    border-color:#ffffff;
+}
+
+.contact .content .text h2{
+	font-size: 3.0rem;
+    font-weight: 500;
+    color: #c11325;
+    padding: 0rem 0rem 2..0rem;
+}
+.contact .content .text p{
+    font-size: 1.5rem;
+    line-height: 2.0rem;
+    color: #ffffff;
+    margin: 0;
+    padding: 0rem 0rem 3.0rem;
+    font-family: 'Open-sans', sans-serif;
+}
+
+.contact .content .text .info ul{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+
+.contact .content .text .info li{
+	display: block;
+	margin-bottom: 1.5rem;
+	color:#ffffff;
+	font-size: 1.5rem;
+	letter-spacing: .1rem;
+	position: relative;
+	padding-left: 4.0rem;
+	font-family: 'Open-Sans',sans-serif;
+}
+.contact .content .text .info li span{
+	display: inline-block;
+	position: absolute;
+	left:0rem;
+	top:0rem;
+	font-size: 2.0rem;
+	color:#c11325;
+}
+.contact .content .text .social {
+	padding-top: 3.0rem;
+}
+.contact .content .text .social a{
+	height: 4.0rem;
+	width: 4.0rem;
+	line-height: 4.0rem;
+	text-align: center;
+	background-color: #c11325;
+    text-decoration: none;	
+    display: inline-block;
+    margin-right: 1.0rem;
+    transition: all .5s ease;
+    border:.1rem solid transparent;
+} 
+
+.contact .content .text .social a:hover{
+	background-color: transparent;
+    border-color: #ffffff;
+}
+
+.contact .content .text .social a span{
+	color:#ffffff;
+	font-size: 2.0rem;
+}
+
+.contact .content .text .copy{
+	border-top:.1rem solid #333333;
+	margin-top: 3rem;
+	padding-top: 2rem;
+	color:#c5c5c5;
+	font-size: 1.5rem;
+}
+
+
+
+
+
+
+@media(max-width:998px){
+    html{
+        font-size:50%;
+    }
+    .header{
+        background-position: center;
+    }
+
+    #about .row .col-md-4 img{
+        height: 150px;
+        width: 150px;
+    }
+  
+    .crap{
+        margin-top:-600px;
+        margin-bottom:20px;
+    }
+    
+    #classes .girl{
+        height:500px;
+        width:500px;
+    }
+    #classes .girl1{
+        height:200px;
+        width:200px;
+    }
+    .class-text ,.class-text-2{
+        width: 200px;
+        height: 200px;
+        font-size:10px;
+    }
+
+    #classes .row{
+        padding-left:110px;
+    }
+  
+
+    #start .start-img{
+        height: 300px;
+        width: 400px;
+    }
+
+    #schedule table{
+        margin-top:-600px;
+    }
+    
+ #price .row .price-tag,.text{
+     width:270px;
+     
+ }
+ #price .row{
+     width:10%;
+    MARGIN-LEFT:350PX;
+ }
+}
+
+
+
+@media(max-width:768px){
+    html{
+        font-size:45%;
+    }
+    #about .row .col-md-4 img{
+        height: 150px;
+        width: 150px;
+    }
+   #services p{
+       width:100%;
+   }
+   #services .accordian{
+     width:100%;
+     margin-top:40px;
+
+   }
+   #classes .girl{
+    height:300px;
+    width:300px;
+    margin-left:-100px;
+}
+#classes .girl1{
+    height:150px;
+    width:150px;
+
+}
+.class-text ,.class-text-2{
+    width: 150px;
+    height: 150px;
+    font-size:8px;
+}
+
+.crap{
+    margin-top:-10px;
+    margin-bottom:20px;
+}
+
+#classes .row{
+    padding-left:150px;
+    
+}
+
+#schedule .sched-img{
+    visibility:hidden;
+}
+#schedule table{
+    
+    margin-top:-600px;
+    width:350px;
+    
+}
+
+#start .start-img{
+    height: 250px;
+    width: 300px;
+}
+#price .row .price-tag,.text{
+    width:240px;
+    
+}
+}
+
+@media(max-width:550px){
+    html{
+        font-size:45%;
+        
+    }
+    .header h1{
+        font-size:3rem;
+    }
+
+    #services{
+        height:800px;
+    }
+
+    #classes .girl{
+       visibility:hidden;
+    }
+    
+       .crap{
+          margin-left:20px;
+          margin-top:-600px;
+       }
+
+       #classes .girl1{
+        height:150px;
+        width:150px;
+    
+    }
+    .class-text ,.class-text-2{
+        width: 150px;
+        height: 150px;
+        font-size:8px;
+    }
+
+       
+#start .start-img{
+    height: 100px;
+    width: 100px;
+}
+
+#schedule .sched-img{
+    visibility:hidden;
+}
+#schedule table{
+    
+    margin-top:-600px;
+    width:350px;
+    
+}
+#price .row .price-tag,.text,.img{
+   MARGIN-LEFT:-250PX;
+    
+}
+#price .price-text{
+    margin-left:30px;
+}
+
+
+#contact .container .content .form {
+width:100%;
+}
+#contact .container .content .text {
+    margin-top:400px;
+    }
+}
+
+
+
+
+
+  
